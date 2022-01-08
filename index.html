@@ -8,13 +8,17 @@
     <title>Using ML controlling Electric Vehicles</title>
 </head>
 <body>
+    <div class="elec_img">
+        <img src="ie1.jpg" alt="" srcset="" >
+    </div>
+    <form method="post">
         <div class="txt">
-            <input type="text" name="Curr_location" id="1" class="1" placeholder="Current Location">
-            <input type="text" name="Later_location" id="2" class="1" placeholder="Destination Location">
+            <input type="text" name="Curr_location" id="1" required="required" placeholder="Current Location">
+            <input type="text" name="Later_location" id="2" required="required" placeholder="Destination Location">
         </div>
-        <a  target="_blank" href="https://www.w3schools.com/html/" class="btn">
-            <input type="button" value="Save" class="btn1">
-        </a>
-    
+            <button type="submit" class="btn1">Save</button>
+    </form>
+
+    <a href="map.html" target="_blank"  class="btn2">go to google map</a>
 </body>
 </html>
