@@ -45,10 +45,15 @@ input[type="text"] {
    color: #fff; 
 }
 @media (max-width: 800px) {
+    .txt {
+       margin-left: 60px;
+    }
     input[type="text"] {
         margin-bottom: 5px;
     } 
     .btn1{
-        margin-bottom: 8px;
+        margin-top: 8px;
+        margin-bottom: 150px;
+        margin-left: 120px;
     } 
 }
